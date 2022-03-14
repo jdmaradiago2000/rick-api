@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background-color: Black;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .image-test{
+    width: 99.9%;
+  }
+  
+  .logo{
+    padding: 6px;
+    margin: 11px;
+  }
+  
+  .search-box{
+    display: flex;
+    width: 100%;
+      max-width: 60rem;
+      margin: 0 auto;
+      margin-bottom: 4rem;
+  }
+  
+  .quest{
+    font-size: medium;
+    border: 1.5px solid rgba(65, 218, 77, 0.774);
+    height: 3rem;
+      border-radius: 0.5rem;
+      padding: 0 1rem;
+      width: 100%;
+    text-align: center;
+  }
+  
+  .button{
+    border: 1.5px solid rgba(65, 218, 77, 0.774);
+    background-color: rgb(12, 2, 2);
+    color: white;
+    font-size: medium; 
+    height: 3rem;
+      border-radius: 0.5rem;
+      padding: 0 1rem;
+      width: 13%;
+  }
+  
+  .general-info{
+    color: white;
+  }
+  
+  .planeta{
+    margin: 20px 0px;
+    padding: 5px;
+    font-size: xx-large;
+  }
+  
+  .characters-info{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    font-size: large;
+  }
+  
+  .residents{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: xx-large;
+    color: white;
+  }
+  
+  .card{
+    max-width: 350px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba (0, 0, 0, 0.3);
+    background-color:rgba(168, 164, 164, 0.479);
+    color: white;
+  }
+  
+  .card h4{
+    margin-bottom: 10px;
+  }
+  
+  .info-card{
+    margin: 6px 0px;
+  }
+  
+  .info-card p{
+    margin: 6px 0;
+  }
+  
+  .test-container{
+    padding: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    grid-gap: 3rem;
+    justify-content: center;
+  }
